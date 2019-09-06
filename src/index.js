@@ -1,13 +1,11 @@
-import React, {
-  Component,
-  PropTypes
-} from 'react'
+import React, { Component } from 'react'
 import ReactNative, {
   Platform,
   ScrollView,
   View,
   ViewPagerAndroid
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 import Circles from './Circles'
 import FixedSizeView from './FixedSizeView'
